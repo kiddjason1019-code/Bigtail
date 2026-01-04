@@ -39,12 +39,12 @@
     if (lightSwitch.checked) {
       body.classList.remove('lights-off')
       if (labelText) {
-        labelText.innerHTML = 'dark'
+        labelText.innerHTML = '夜間'
       }
     } else {
       body.classList.add('lights-off')
       if (labelText) {
-        labelText.innerHTML = 'light'
+        labelText.innerHTML = '日間'
       }
     }
   }
